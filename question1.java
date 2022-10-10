@@ -15,7 +15,8 @@ public class question1 {
             {
                 if(((int)str1.charAt(i)) - ((int)str2.charAt(i))>0)
                 {
-                    bigger_string = 1;
+                    // true means that unicode value of char of str1 was greater hence lexically str1 should come after str2
+                    bigger_string = 1; 
                 }else{
                     bigger_string = 2;
                 }
